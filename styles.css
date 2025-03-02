@@ -1,0 +1,26 @@
+#center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245,245,245);
+    border-radius: 8px;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #143275;
+}
+
+.cell {
+    background-color: white;
+    box-sizing: border-box; /* Ensures borders don't increase size */
+    border: 1px solid #ccc;
+}
