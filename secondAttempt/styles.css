@@ -34,13 +34,15 @@
 #grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     width: 700px;
     height: 700px;
-    border: 2px solid blue;
+    /* border: 1px solid blue; */
 }
 
 #form label {
     display: block;
+}
+
+.cell {
+    border: 1px, solid black;
 }
